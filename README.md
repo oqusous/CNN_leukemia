@@ -2,7 +2,7 @@
 
 The remarkable advances in image recognition technology through Machine Learning algorithims has lead many businesses of different presuaions to seek utilizing its uses. It is applied in areas such as social media image tagging, self-driving car technology, security and medical research. This project aims to assess the accuracy of a built-from-scratch CNN model and a ResNet50 pre-trained transfer learning CNN model in distingushing leukemic B-lymphoblast cells from healthy B-lymphoid precursors. The images are microscopic images of blood smear samples for patients who are healthy and others who have been diagnosed with Leukemia.
 
-https://kaggle.com and https://biomedicalimaging.org
+https://www.kaggle.com/andrewmvd/leukemia-classification and https://biomedicalimaging.org
 These lymphocyte cells have been segmented from the microscopic images and they are representative of images in the real-world in that they contain staining noise and illumination errors.
 - The images are size 450x450x3 labeled _all for cancer cell images and _hem for healthy cells.
 - 69 cancer subjects and 49 Normal subjects.
