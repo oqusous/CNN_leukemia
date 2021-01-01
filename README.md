@@ -14,9 +14,27 @@ These lymphocyte cells have been segmented from the microscopic images and they 
 
 ![sample](images/Picture2.png)
 
+## CNN Model from Scratch
+- Four Convolutional layers, with ascending increase in number of Neurons 32, 64, 128, 256. Second, Third and Fourth layers consist of two Sublayers
+- Four Pooling layers with Max activation function
+- One Flatten layer followed by three dense layers with drop-out
+- Output Layer Sigmoid
+- Adam optimizer, Binary Cross Entropy and 15 Epochs.
+
+Validation and training accuracy and loss results
 ![sample](images/Picture3.png)
 
+## CNN Model using ResNet50 Pre-trained Model
+
+- Train model with frozen pre-trained base model ResNet50 with “imagenet” weights.
+- Added an Average Pooling layer and output layer with sigmoid activation.
+- Validation accuracy lower than “from scratch” model.
+
+Validation and training accuracy and loss results with all layers fr
 ![sample](images/Picture4.png)
+
+## Fine Tuned ResNet50 Model
+- Unfroze 125/175 layers and allowed them to be trained with the model again with lower optimizer learning rate.
 
 ![sample](images/Picture5.png)
 
